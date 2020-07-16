@@ -21,8 +21,8 @@ section{
 header{
 	background-color: #bfacc8;
 	color: #4a4063 ; /* more readable on an orange background */
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 nav{
