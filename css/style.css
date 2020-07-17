@@ -20,7 +20,7 @@ section{
 
 header{
 	background-color: #bfacc8;
-	color: #4a4063 ; /* more readable on an orange background */
+	color: #4a4063 ; 
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
@@ -45,7 +45,18 @@ nav a:hover{
 	text-decoration: underline; /* Hover styles to let people know they can click it */
 }
 
+/* Photo grid editing */
 
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 20px;
+}
+
+.column{
+	flex: 80%;
+	padding: 0 20px;
+}
 
 /* Simple grid */
 .g-row{
@@ -57,8 +68,8 @@ nav a:hover{
 	width: 100%; /*This makes all images in grids to be the size of their cell */
 }
 
-.g-50{
-	width: 50%;
+.g-33{
+	width: 33%;
 	float: left;
 }
 
@@ -73,8 +84,13 @@ nav a:hover{
 }
 
 .show{
-	border: 1px solid blue;
-	padding: 2px;
+	border: 5px solid blue;
+	padding: 10px;
+}
+
+.show1{
+	border: 5px solid yellow;
+	padding: 0px;
 }
 
 .padded{
