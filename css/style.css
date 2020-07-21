@@ -44,7 +44,7 @@ nav a, nav h3{
 }
 
 nav a:hover{
-	color: white;
+	color: #e6fff9;
 	text-decoration: underline; /* Hover styles to let people know they can click it */
 }
 
