@@ -58,41 +58,7 @@ nav a:hover{
 	padding: 0 20px;
 }
 
-/* Simple grid */
-.g-row{
-	width: 100%;
-	overflow: hidden;
+img{
+	max-width: 100%;
 }
 
-.g-row img{
-	width: 100%; /*This makes all images in grids to be the size of their cell */
-}
-
-.g-33{
-	width: 33%;
-	float: left;
-}
-
-.g-30{
-	width: 30%;
-	float: left;
-}
-
-.g-70{
-	width: 70%;
-	float: left;
-}
-
-.show{
-	border: 5px solid blue;
-	padding: 10px;
-}
-
-.show1{
-	border: 5px solid yellow;
-	padding: 0px;
-}
-
-.padded{
-	padding: 20px; /* I add this to cells to add a little padding*/
-}
