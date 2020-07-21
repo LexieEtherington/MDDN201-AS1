@@ -6,8 +6,9 @@
 
 body{
 	margin: 0px; /* Often browsers have a 5px margin by deafult*/
-	font-family: sans-serif;
+	font-family: monospace;
 	background-color:#f7dba7;
+	color: #000000;
 }
 
 section{
@@ -39,7 +40,7 @@ nav a, nav h3{
 	margin-left: 1em;
 	margin-right: 1em;
 	text-decoration: none;
-	color: black;
+	color: #57756f;
 }
 
 nav a:hover{
@@ -62,5 +63,7 @@ nav a:hover{
 
 img{
 	max-width: 100%;
+  	border-radius: 3%;
 }
+
 
